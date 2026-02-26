@@ -1,28 +1,6 @@
-# Dependencies
 node_modules/
-
-# Build output (keep for npm users)
-# dist/
-
-# Test coverage
-coverage/
-
-# Logs
+dist/
 *.log
-
-# OS files
 .DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Agent-specific files (development only)
-AGENTS.md
-PROMPT.md
-IMPLEMENTATION_PLAN.md
-IMPLEMENTATION_COMPLETE.md
-DEMO.sh
-specs/
-*.local.*
+coverage/
+.env
