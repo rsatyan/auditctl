@@ -46,7 +46,7 @@ function createLogCommand() {
         .description('Log an audit entry')
         .requiredOption('-t, --tool <name>', 'Tool name (e.g., finctl, mortctl)')
         .requiredOption('-c, --command <cmd>', 'Command executed')
-        .requiredOption('-v, --version <ver>', 'Tool version')
+        .requiredOption('--tool-version <ver>', 'Tool version')
         .option('-i, --inputs <json>', 'Input parameters as JSON')
         .option('-o, --outputs <json>', 'Output results as JSON')
         .option('-r, --rationale <text>', 'Human-readable rationale', '')
@@ -80,7 +80,7 @@ function createLogCommand() {
                 entryOptions = {
                     tool: options.tool,
                     command: options.command,
-                    toolVersion: options.version,
+                    toolVersion: options.toolVersion,
                     inputs: options.inputs ? JSON.parse(options.inputs) : {},
                     outputs: options.outputs ? JSON.parse(options.outputs) : {},
                     rationale: options.rationale,
