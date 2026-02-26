@@ -1,6 +1,6 @@
 {
   "name": "auditctl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Immutable audit logging for lending operations - part of the LendCtl Suite",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
