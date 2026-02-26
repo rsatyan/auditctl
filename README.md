@@ -244,4 +244,4 @@ auditctl is the audit foundation for the LendCtl lending CLI suite:
 
 ## License
 
-Apache-2.0 © Avatar Consulting
+Apache-2.0 © Satyan Avatara

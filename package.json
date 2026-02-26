@@ -1,6 +1,6 @@
 {
   "name": "auditctl",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Immutable audit logging for lending operations - part of the LendCtl Suite",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,7 @@
     "logging",
     "mcp"
   ],
-  "author": "Avatar Consulting",
+  "author": "Satyan Avatara",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
